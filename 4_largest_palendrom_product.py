@@ -1,8 +1,11 @@
 import itertools
 
+# We're trying to find the largest product of two `num_digits` numbers
+# that is a palendrome.
+
 
 class Solution:
-    # Template method for soultions
+
     def solution(self, num_digits: int) -> int:
         # Create low and high bounds from the number of digits given
         # Ex: `num_digits = 2`

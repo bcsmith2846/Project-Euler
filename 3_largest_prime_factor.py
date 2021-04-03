@@ -1,9 +1,11 @@
 import math
 
+# We're trying to find the largest prime factor of a
+# given input, `num`
+
 
 class Solution:
-
-    def solution(self, num: int = 0) -> int:
+    def solution(self, num: int) -> int:
         prime_factors = []
         n = num
 
@@ -25,5 +27,6 @@ class Solution:
         return max(prime_factors)
 
 
+# Boilerplate runner code
 input = 600851475143
 print(Solution().solution(input))
