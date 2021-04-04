@@ -3,14 +3,17 @@ import math
 import itertools
 from functools import reduce
 
-# Description of the problem
+# We need to find the sum of the primes below 2,000,000
+# The sum of the promes below 10 is 17 (2 + 3 + 5 + 7)
 
 
 class Solution:
 
-    def solution(param: type) -> returnType:
+    def solution(self, max_number: int) -> int:
         pass
 
 
-input = []
-print(Solution().solution(input))
+# Boilerplate driver code
+input1 = 10
+input2 = 2000000
+print(Solution().solution(input1))
