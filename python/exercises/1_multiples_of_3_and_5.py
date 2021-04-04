@@ -7,7 +7,3 @@ def solution(max_num: int) -> int:
     for x in range(3, max_num):
         answer += x if (x % 3 == 0 or x % 5 == 0) else 0
     return answer
-
-
-# Boilerplate runner code
-print(solution(1000))
