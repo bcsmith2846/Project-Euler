@@ -11,9 +11,3 @@ class Solution:
 
     def solution(self, max_number: int) -> int:
         pass
-
-
-# Boilerplate driver code
-input1 = 10
-input2 = 2000000
-print(Solution().solution(input1))
