@@ -18,8 +18,3 @@ class Solution:
             if num % 2 == 0:
                 sum += num
         return sum
-
-
-# Boilerplate runner code
-input = 4000000
-print(Solution().solution(input))
