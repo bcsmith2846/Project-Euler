@@ -46,8 +46,3 @@ class Solution:
             if all:
                 return number
         return -1
-
-
-# Boilerplate driver code
-input = (1, 20)
-print(Solution().solution(input))
