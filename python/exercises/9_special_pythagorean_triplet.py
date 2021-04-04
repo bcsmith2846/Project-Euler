@@ -14,8 +14,3 @@ class Solution:
 
     def solution(self, c: int) -> int:
         pass
-
-
-# Boilerplate driver code
-input = 1000
-print(Solution().solution(input))
