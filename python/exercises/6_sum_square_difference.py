@@ -15,4 +15,9 @@ from functools import reduce
 class Solution:
 
     def solution(self, end: int) -> int:
-        pass
+        sqOfSu = sum(range(1, end+1)) ** 2
+        suOfSq = sum([i ** 2 for i in range(1, end + 1)])
+        return sqOfSu - suOfSq
+
+
+print(Solution().solution(100))
