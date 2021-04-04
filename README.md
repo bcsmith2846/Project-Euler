@@ -1,5 +1,7 @@
-# Project-Euler
-This repository is full of solutions of Project Euler exercises in python and other languages.
+# Project-Lagrange
+This repository is full of solutions of Project Euler exercises in python and other languages. 
+
+The project is called Project Lagrange as an homage to one of Euler's most famous students, Joseph-Louis Lagrange, who studied under Euler.
 
 I am creating what I hope to be a repository of solutions to exercises for people to learn their first programming language or to add another language to their toolbelt.
 
