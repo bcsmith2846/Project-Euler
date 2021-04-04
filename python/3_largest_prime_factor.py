@@ -25,3 +25,8 @@ class Solution:
             prime_factors.append(num)
 
         return max(prime_factors)
+
+
+# Boilerplate runner code
+input = 600851475143
+print(Solution().solution(input))

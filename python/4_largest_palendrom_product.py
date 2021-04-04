@@ -38,3 +38,8 @@ class Solution:
                     max = product
 
         return max
+
+
+# Boilerplate runner code
+input = 3
+print(Solution().solution(input))
