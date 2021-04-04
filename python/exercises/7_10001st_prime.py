@@ -3,14 +3,11 @@ import math
 import itertools
 from functools import reduce
 
-# Description of the problem
+# Find the 10001st prime where the first prime is 2
+# and the 6th prime is 13
 
 
 class Solution:
 
     def solution(param: type) -> returnType:
         pass
-
-
-input = []
-print(Solution().solution(input))
