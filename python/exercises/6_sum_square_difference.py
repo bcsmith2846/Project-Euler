@@ -18,6 +18,7 @@ class Solution:
         pass
 
 
+# Boilerplate driver code
 input1 = 10
 input2 = 100
 print(Solution().solution(input1))
