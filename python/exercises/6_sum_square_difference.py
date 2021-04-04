@@ -15,9 +15,10 @@ from functools import reduce
 class Solution:
 
     def solution(self, end: int) -> int:
+        # Square the sum of the numbers in the
+        # range of `1..end`
         sqOfSu = sum(range(1, end+1)) ** 2
+        # Sum the squares of the numbers in the
+        # range of `1..end`
         suOfSq = sum([i ** 2 for i in range(1, end + 1)])
         return sqOfSu - suOfSq
-
-
-print(Solution().solution(100))
